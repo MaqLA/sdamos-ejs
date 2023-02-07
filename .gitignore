@@ -4,4 +4,4 @@ node_modules/
 .vscode/
 .DS_Store
 # see if this works
-package-lock.json
+/package-lock.json
