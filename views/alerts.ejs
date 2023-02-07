@@ -1,0 +1,26 @@
+<!-- integrate DB -->
+<%- include("header") -%>
+<!-- Content -->
+<section id="content">
+        <div class="container-fluid title-color">
+            <div class="row">
+                <div class="b-pad">
+                    <h1>Mobile Hazard Alerts</h1>
+                    <h4>Amaran Mudah Alih</h4>
+                    <p>Mobile Hazard Alerts allow you to receive information about disaster hazards in Malaysia.
+                        Opt in to get SMSs, with data from METMalaysia's MET API, and powered by Twilio's messaging API.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <form class="container-fluid">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Mobile Number | Nombor Telefon">
+                        <button class="btn btn-primary" type="submit" id="opt-in">Opt In</button>
+                    </div>
+                    <p>Once opted in to get messages, you are free to opt out at any time through the link in the message.</p>
+                </form>
+            </div>
+        </div>
+</section>
+<%- include("footer") -%>
