@@ -3,3 +3,5 @@ node_modules/
 #from system
 .vscode/
 .DS_Store
+# see if this works
+package-lock.json
